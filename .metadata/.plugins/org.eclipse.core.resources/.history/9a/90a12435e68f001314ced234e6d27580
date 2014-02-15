@@ -1,0 +1,38 @@
+package com.krzysztof.m.swist.mygame;
+
+import android.content.Context;
+
+public class Outbox {
+	private int score;
+	boolean achievementOver10Points = false;
+	boolean isEmpty() {
+        return !achievementOver10Points ;
+    }
+	public boolean isOver10points() {
+		return achievementOver10Points;
+	}
+	public void setOver10points(boolean over10points) {
+		this.achievementOver10Points = over10points;
+	}
+	public int getScore() {
+		return score;
+	}
+	public void setScore(int score) {
+		this.score = score;
+	}
+	
+    public void saveLocal(Context ctx) {
+        /* TODO: This is left as an exercise. To make it more difficult to cheat,
+         * this data should be stored in an encrypted file! And remember not to
+         * expose your encryption key (obfuscate it by building it from bits and
+         * pieces and/or XORing with another string, for instance). */
+    }
+
+    public void loadLocal(Context ctx) {
+        /* TODO: This is left as an exercise. Write code here that loads data
+         * from the file you wrote in saveLocal(). */
+    }
+	
+	
+
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="android.R"/>
+<fullyQualifiedTypeName name="android.content.DialogInterface.OnClickListener"/>
+<fullyQualifiedTypeName name="com.krzysztof.m.swist.mygame.R.layout"/>
+<fullyQualifiedTypeName name="com.krzysztof.m.swist.mygame.EndGameFragment"/>
+<fullyQualifiedTypeName name="android.support.v4.app.Fragment"/>
+<fullyQualifiedTypeName name="android.view.View.OnClickListener"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="android.view.LayoutInflater"/>
+<fullyQualifiedTypeName name="android.view.ViewGroup"/>
+<fullyQualifiedTypeName name="android.os.Bundle"/>
+<fullyQualifiedTypeName name="com.krzysztof.m.swist.mygame.MainMenuFragment"/>
+<fullyQualifiedTypeName name="com.krzysztof.m.swist.mygame.MainMenuFragment.Listener"/>
+<fullyQualifiedTypeName name="android.util.Log"/>
+<fullyQualifiedTypeName name="android.widget.TextView"/>
+<fullyQualifiedTypeName name="android.os.Handler"/>
+<fullyQualifiedTypeName name="com.google.android.gms.games.multiplayer.realtime.RealTimeMessageReceivedListener"/>
+<fullyQualifiedTypeName name="com.google.android.gms.games.multiplayer.realtime.RoomStatusUpdateListener"/>
+<fullyQualifiedTypeName name="com.google.android.gms.games.multiplayer.realtime.RoomUpdateListener"/>
+<fullyQualifiedTypeName name="com.google.android.gms.games.multiplayer.OnInvitationReceivedListener"/>
+<fullyQualifiedTypeName name="com.google.android.gms.games.multiplayer.realtime.RoomConfig"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="java.util.HashSet"/>
+<fullyQualifiedTypeName name="com.krzysztof.m.swist.mygame.MainActivity"/>
+<fullyQualifiedTypeName name="com.krzysztof.m.swist.mygame.GameplayFragment"/>
+<fullyQualifiedTypeName name="com.krzysztof.m.swist.mygame.EndGameCloudResults"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.krzysztof.m.swist.mygame.R.id"/>
+<fullyQualifiedTypeName name="com.google.android.gms.games.multiplayer.Participant"/>
+<fullyQualifiedTypeName name="com.krzysztof.m.swist.mygame.GameType"/>
+</qualifiedTypeNameHistroy>

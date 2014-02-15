@@ -1,0 +1,8 @@
+INDEX VERSION 1.126+C:\Documents and Settings\kswist\workspace-ADT\.metadata\.plugins\org.eclipse.jdt.core
+1956405281.index
+2775261923.index
+848856923.index
+716536080.index
+2700821840.index
+258344984.index
+2621474335.index

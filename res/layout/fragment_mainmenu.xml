@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+   Copyright (C) 2013 Google Inc.
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
+
+
+<!-- MAIN MENU -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/screen_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <!-- <TextView style="@style/GameTitle" /> -->
+
+    <Button
+        android:id="@+id/button_single_player"
+        style="@style/MainScreenButton"
+        android:text="@string/single_player" />
+
+    <TextView
+        style="@style/MainScreenButtonBlurb"
+        android:text="@string/single_player_explanation" />
+
+    <Button
+        android:id="@+id/button_quick_game"
+        style="@style/MainScreenButton"
+        android:text="@string/quick_game" />
+
+    <TextView
+        style="@style/MainScreenButtonBlurb"
+        android:text="@string/quick_game_explanation" />
+
+    <Button
+        android:id="@+id/button_invite_players"
+        style="@style/MainScreenButton"
+        android:text="@string/invite_players" />
+
+    <TextView
+        style="@style/MainScreenButtonBlurb"
+        android:text="@string/invite_players_explanation" />
+
+    <Button
+        android:id="@+id/button_see_invitations"
+        style="@style/MainScreenButton"
+        android:text="@string/see_invitations" />
+
+    <TextView
+        style="@style/MainScreenButtonBlurb"
+        android:text="@string/see_invitations_explanation" />
+
+    <Button
+        android:id="@+id/button_show_achievements"
+        style="@style/MainScreenButton"
+        android:text="@string/show_achievements" />
+
+    <TextView
+        style="@style/MainScreenButtonBlurb"
+        android:text="@string/show_achievements_explanation" />
+    <Button
+        android:id="@+id/button_show_leaderboards"
+        style="@style/MainScreenButton"
+        android:text="@string/show_leaderboards" />
+
+    <TextView
+        style="@style/MainScreenButtonBlurb"
+        android:text="@string/show_leaderboards_explanation" />
+    <LinearLayout
+        android:id="@+id/sign_in_bar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#f0f0f0"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/button_sign_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/sign_out_bar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+
+        android:background="#f0f0f0"
+        android:gravity="center"
+        android:orientation="horizontal">
+<!--         android:padding="10dp" > -->
+
+        <Button
+            android:id="@+id/button_sign_out"
+            style="@style/SignOutButton"
+            android:text="@string/sign_out" />
+    </LinearLayout>
+
+</LinearLayout>

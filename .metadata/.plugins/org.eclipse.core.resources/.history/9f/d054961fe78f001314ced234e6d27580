@@ -1,0 +1,24 @@
+package com.krzysztof.m.swist.mygame;
+
+import android.widget.Toast;
+import android.content.Context;
+
+public class EndGameCloudResults {
+
+	private int score;
+	private Outbox outbox = new Outbox();
+	
+
+    
+
+    
+
+    
+
+    /**
+     * Update leaderboards with the user's score.
+     *
+     * @param finalScore The score the user got.
+     */
+   
+}

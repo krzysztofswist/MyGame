@@ -1,0 +1,74 @@
+package com.krzysztof.m.swist.mygame;
+
+import android.os.Handler;
+import android.view.View;
+import android.widget.TextView;
+
+public class GameLogic {
+	 /*
+     * GAME LOGIC SECTION. Methods that implement the game's rules.
+     */
+
+    // Current state of the game:
+    int mSecondsLeft = -1; // how long until the game ends (seconds)
+    final static int GAME_DURATION = 20; // game duration, seconds.
+    int mScore = 0; // user's current score
+
+    // Reset game variables in preparation for a new game.
+    void resetGameVars() {
+        mSecondsLeft = GAME_DURATION;
+        mScore = 0;
+        mParticipantScore.clear();
+        mFinishedParticipants.clear();
+    }
+
+    // Start the gameplay phase of the game.
+    void startGame(boolean multiplayer) {
+        mMultiplayer = multiplayer;
+        updateScoreDisplay();
+        broadcastScore(false);
+        switchToScreen(R.id.screen_game);
+
+        findViewById(R.id.button_click_me).setVisibility(View.VISIBLE);
+
+        // run the gameTick() method every second to update the game.
+        final Handler h = new Handler();
+        h.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                if (mSecondsLeft <= 0)
+                    return;
+                gameTick();
+                h.postDelayed(this, 1000);
+            }
+        }, 1000);
+    }
+
+    // Game tick -- update countdown, check if game ended.
+    void gameTick() {
+        if (mSecondsLeft > 0)
+            --mSecondsLeft;
+
+        // update countdown
+        ((TextView) findViewById(R.id.countdown)).setText("0:" +
+                (mSecondsLeft < 10 ? "0" : "") + String.valueOf(mSecondsLeft));
+
+        if (mSecondsLeft <= 0) {
+            // finish game
+            findViewById(R.id.button_click_me).setVisibility(View.GONE);
+            broadcastScore(true);
+        }
+    }
+
+    // indicates the player scored one point
+    void scoreOnePoint() {
+        if (mSecondsLeft <= 0)
+            return; // too late!
+        ++mScore;
+        updateScoreDisplay();
+        updatePeerScoresDisplay();
+
+        // broadcast our new score to our peers
+        broadcastScore(false);
+    }
+}

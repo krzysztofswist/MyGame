@@ -1,0 +1,9 @@
+package com.krzysztof.m.swist.mygame;
+
+public class Outbox {
+	boolean over10points = false;
+	boolean isEmpty() {
+        return !over10points ;
+    }
+
+}

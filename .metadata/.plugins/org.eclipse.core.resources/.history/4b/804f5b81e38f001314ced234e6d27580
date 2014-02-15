@@ -1,0 +1,17 @@
+package com.krzysztof.m.swist.mygame;
+
+public class Outbox {
+	boolean over10points = false;
+	boolean isEmpty() {
+        return !over10points ;
+    }
+	public boolean isOver10points() {
+		return over10points;
+	}
+	public void setOver10points(boolean over10points) {
+		this.over10points = over10points;
+	}
+	
+	
+
+}

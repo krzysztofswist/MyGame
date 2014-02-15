@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename field &apos;mRoomId&apos; in &apos;com.krzysztof.m.swist.mygame.APIIntegration&apos; to &apos;roomId&apos;&#x0D;&#x0A;- Original project: &apos;ButtonClicker&apos;&#x0D;&#x0A;- Original element: &apos;com.krzysztof.m.swist.mygame.APIIntegration.mRoomId&apos;&#x0D;&#x0A;- Renamed element: &apos;com.krzysztof.m.swist.mygame.APIIntegration.roomId&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" delegate="false" deprecate="false" description="Rename field &apos;mRoomId&apos;" flags="589830" getter="false" id="org.eclipse.jdt.ui.rename.field" input="/src&lt;com.krzysztof.m.swist.mygame{APIIntegration.java[APIIntegration^mRoomId" name="roomId" references="true" setter="false" stamp="1389776506626" textual="false" version="1.0"/>
+</session>
