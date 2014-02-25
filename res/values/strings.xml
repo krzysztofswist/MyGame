@@ -53,7 +53,7 @@
     <string name="is_inviting_you">is challenging you to a game!</string>
     <string name="achievements_not_available">Please sign in to view achievements.</string>
     <string name="leaderboards_not_available">Please sign in to view leaderboards.</string>
-    <string name="achievement_over_10_points">Over 10 points</string>
+    <string name="over_10_points">Over 10 points</string>
     <string name="achievement">Achievement</string>
 
 </resources>
